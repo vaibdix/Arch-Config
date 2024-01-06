@@ -1,0 +1,34 @@
+# Colors (Doom One)
+colors:
+  # Default colors
+  doom-one: &doom-one
+    primary:
+      background:   "#011627"
+      # background: '#100e1a'
+      foreground:   "#ffffff"
+    cursor:
+      text: CellBackground
+      cursor:       "#f78c6c"
+    selection:
+      text: CellForeground
+      background:   "#000000"
+      save_to_clipboard: true
+      live_config_reload: true
+    normal:
+      black:    "#1c1f24"
+      red:      "#f64d4c"
+      green:    "#a4ed42"
+      yellow:   "#ecbe7b"
+      blue:     "#00bff8"
+      magenta:  "#b081cf"
+      cyan:     "#00bff8"
+      white:    "#202328"
+    bright:
+      black:    "#5b6268"
+      red:      "#da8548"
+      green:    "#00bff8"
+      yellow:   "#ecbe7b"
+      blue:     "#b081cf"
+      magenta:  "#a9a1e1"
+      cyan:     "#46d9ff"
+      white:    "#dfdfdf"
